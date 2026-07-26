@@ -130,10 +130,12 @@ export default function HomePage() {
           ],
         },
         {
-          value: "110",
+          value: "Wood St
+",
           title: "Location",
           features: [
-            "110 Wood St, London",
+            "Wood St
+ Wood St, London",
             "E17 3HX",
             "Easy Access",
           ],
