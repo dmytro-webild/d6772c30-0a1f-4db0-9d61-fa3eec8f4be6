@@ -15,7 +15,7 @@ export default function TestimonialsSection(): React.JSX.Element {
           description="Join our community of happy diners who love the Tuto experience."
           testimonials={[
             {
-              name: "Sarah J.",
+              name: "Viorica Feraru",
               role: "Foodie",
               quote: "We ordered a couple of pasta dishes, a big pizza, and a mixed fried platter—and everything was absolutely delicious.",
               imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-beautiful-black-skinned-woman-wearing-blouse-flower-headband-enjoying-dinner-while-eating-restaurant_613910-5658.jpg",
