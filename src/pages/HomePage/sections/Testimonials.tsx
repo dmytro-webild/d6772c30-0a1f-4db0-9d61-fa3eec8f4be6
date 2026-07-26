@@ -22,9 +22,9 @@ export default function TestimonialsSection(): React.JSX.Element {
             },
             {
               name: "Julie",
-              role: "Local Guide Guide",
+              role: "Local Guide",
               quote: "Last minute Mothers day treat, have not been here before but will definitely return.",
-              imageSrc: "http://img.b2bpic.net/free-photo/front-view-male-courier-yellow-uniform-cape-with-round-delivery-bowl-his-hands-pink-background_140725-40591.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3GLscP9beQHn8gWQw9DRufBbp25/uploaded-1785100614290-zzyqa21w.png",
             },
             {
               name: "Elena V.",
