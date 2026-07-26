@@ -54,24 +54,28 @@ export default function Layout() {
         <Outlet />
       </main>
       <SectionErrorBoundary name="footer">
-        <FooterMinimal
-      brand="Tuto Restaurant"
-      copyright="© 2024 Tuto Restaurant. All rights reserved."
-      socialLinks={[
-        {
-          icon: Instagram,
-          href: "#",
-        },
-        {
-          icon: Facebook,
-          href: "#",
-        },
-        {
-          icon: Phone,
-          href: "tel:02081497688",
-        },
-      ]}
-    />
+        <footer data-section="footer" aria-label="Site footer" className="relative w-full py-20">
+          <div className="flex flex-col w-content-width mx-auto px-10 pb-5 rounded-lg card">
+            <div className="py-12 text-center">
+              <h2 className="text-5xl 2xl:text-6xl leading-[1.15] font-semibold text-balance">Tuto Restaurant</h2>
+            </div>
+            <div className="h-px w-full mb-5 bg-foreground/50" />
+            <div className="flex flex-col gap-3 items-center justify-between md:flex-row">
+              <span className="text-base opacity-75">© 2024 Tuto Restaurant. All rights reserved.</span>
+              <div className="flex items-center gap-3">
+                <a href="#" className="flex items-center justify-center size-10 rounded-full primary-button text-primary-cta-text">
+                  <Instagram className="size-4" strokeWidth={1.5} />
+                </a>
+                <a href="#" className="flex items-center justify-center size-10 rounded-full primary-button text-primary-cta-text">
+                  <Facebook className="size-4" strokeWidth={1.5} />
+                </a>
+                <a href="tel:02081497688" className="flex items-center justify-center size-10 rounded-full primary-button text-primary-cta-text">
+                  <Phone className="size-4" strokeWidth={1.5} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </footer>
       </SectionErrorBoundary>
     </StyleProvider>
   );
