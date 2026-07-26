@@ -21,9 +21,9 @@ export default function TestimonialsSection(): React.JSX.Element {
               imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-beautiful-black-skinned-woman-wearing-blouse-flower-headband-enjoying-dinner-while-eating-restaurant_613910-5658.jpg",
             },
             {
-              name: "Mark D.",
-              role: "Local",
-              quote: "Fantastic service and incredible wine list. Highly recommend the risotto.",
+              name: "Julie",
+              role: "Local Guide Guide",
+              quote: "Last minute Mothers day treat, have not been here before but will definitely return.",
               imageSrc: "http://img.b2bpic.net/free-photo/front-view-male-courier-yellow-uniform-cape-with-round-delivery-bowl-his-hands-pink-background_140725-40591.jpg",
             },
             {
