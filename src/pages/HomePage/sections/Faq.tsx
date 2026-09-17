@@ -31,7 +31,7 @@ export default function FaqSection(): React.JSX.Element {
               answer: "Absolutely! We welcome families and provide a warm environment for all.",
             },
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/close-up-crystal-glasses_1203-631.jpg"
+          imageSrc="https://storage.googleapis.com/webild/users/user_3GLscP9beQHn8gWQw9DRufBbp25/uploaded-1789654345759-54gjn515.jpg"
           textAnimation="slide-up"
         />
         </SectionErrorBoundary>
