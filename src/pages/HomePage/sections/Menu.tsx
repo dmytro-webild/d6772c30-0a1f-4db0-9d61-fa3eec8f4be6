@@ -18,25 +18,25 @@ export default function MenuSection(): React.JSX.Element {
               title: "Homemade Pasta",
               description: "Freshly prepared daily with traditional techniques.",
               href: "#",
-              imageSrc: "http://img.b2bpic.net/free-photo/baking-delicious-pizza-with-wood-fired-oven_23-2150134278.jpg",
+              imageSrc: "https://images.pexels.com/photos/27866922/pexels-photo-27866922.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=27866922",
             },
             {
               title: "Wood-Fired Pizza",
               description: "Crispy base, authentic toppings, perfection.",
               href: "#",
-              imageSrc: "http://img.b2bpic.net/free-photo/salad-with-tomato-cheese-slices_140725-2835.jpg",
+              imageSrc: "https://images.pexels.com/photos/6223172/pexels-photo-6223172.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=6223172",
             },
             {
               title: "Seafood Special",
               description: "Fresh catch prepared in the Mediterranean style.",
               href: "#",
-              imageSrc: "http://img.b2bpic.net/free-photo/red-wine-carafe-glass-table_23-2149706791.jpg",
+              imageSrc: "https://images.pexels.com/photos/32966718/pexels-photo-32966718.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=32966718",
             },
             {
               title: "Antipasti Platter",
               description: "Perfect selection to start your dining journey.",
               href: "#",
-              imageSrc: "http://img.b2bpic.net/free-photo/minestrone-soup-pan-light-table-top-view-italian-soup-with-pasta-seasonal-vegetables-delicious-vegetarian-food-concept_127032-2696.jpg",
+              imageSrc: "https://images.pexels.com/photos/5975429/pexels-photo-5975429.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=5975429",
             },
             {
               title: "Classic Risotto",
@@ -48,13 +48,13 @@ export default function MenuSection(): React.JSX.Element {
               title: "Tiramisu",
               description: "Our signature Italian dessert ender.",
               href: "#",
-              imageSrc: "http://img.b2bpic.net/free-photo/healthy-mexican-salad_23-2148140257.jpg",
+              imageSrc: "https://images.pexels.com/photos/27219786/pexels-photo-27219786.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=27219786",
             },
             {
               title: "Fine Wines",
               description: "Curated selection from Italian regions.",
               href: "#",
-              imageSrc: "http://img.b2bpic.net/free-photo/cast-iron-pan-mussels-cream-sauce-garnished-with-fresh-herbs_140725-1442.jpg",
+              imageSrc: "https://images.pexels.com/photos/16053261/pexels-photo-16053261.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=16053261",
             },
           ]}
           textAnimation="fade"
