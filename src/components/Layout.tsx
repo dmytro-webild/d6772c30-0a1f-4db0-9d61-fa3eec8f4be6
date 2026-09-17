@@ -61,7 +61,7 @@ export default function Layout() {
             </div>
             <div className="h-px w-full mb-5 bg-foreground/50" />
             <div className="flex flex-col gap-3 items-center justify-between md:flex-row">
-              <span className="text-base opacity-75">© 2024 Tuto Restaurant. All rights reserved.</span>
+              <span className="text-base opacity-75">© 2026 Tuto Restaurant. All rights reserved.</span>
               <div className="flex items-center gap-3">
                 <a href="#" className="flex items-center justify-center size-10 rounded-full primary-button text-primary-cta-text">
                   <Instagram className="size-4" strokeWidth={1.5} />
