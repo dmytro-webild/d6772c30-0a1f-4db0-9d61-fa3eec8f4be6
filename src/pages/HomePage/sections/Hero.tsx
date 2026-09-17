@@ -23,19 +23,19 @@ export default function HeroSection(): React.JSX.Element {
           }}
           items={[
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/wedding-reception-room-with-decorated-table-setting-sea-view-through-window_637285-984.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3GLscP9beQHn8gWQw9DRufBbp25/uploaded-1789654426063-cjdhwluo.jpg",
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/high-angle-man-putting-mozzarella-baked-pizza-dough-with-smoked-salmon-slices_23-2148785701.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3GLscP9beQHn8gWQw9DRufBbp25/uploaded-1789654358358-ny52uhwe.jpg",
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/top-view-delicious-sandwiches-with-tomatoes-olives-inside-plate-white-background-toast-bread-lunch-burger-horizontal-meal-food_140725-158810.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3GLscP9beQHn8gWQw9DRufBbp25/uploaded-1789654370059-x7hyct3i.jpg",
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/spaghetti-with-mussels-bell-peppers-served-with-white-wine_140725-8468.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3GLscP9beQHn8gWQw9DRufBbp25/uploaded-1789654381015-p53vyc07.jpg",
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/top-view-tasty-meatballs-soup-with-vegetables-dark-table-sauce-dish-colors_140725-81719.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3GLscP9beQHn8gWQw9DRufBbp25/uploaded-1789654387883-vg83df3c.jpg",
             },
           ]}
           textAnimation="fade-blur"
