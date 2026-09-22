@@ -23,7 +23,7 @@ export default function TestimonialsSection(): React.JSX.Element {
             {
               name: "Julie",
               role: "Local Guide",
-              quote: "Last minute Mothers day treat, have not been here before but will definitely return.",
+              quote: "Last minute Mothers day treat, food was excellent, particularly the seafood. Plenty of vegetarian choices too.",
               imageSrc: "https://storage.googleapis.com/webild/users/user_3GLscP9beQHn8gWQw9DRufBbp25/uploaded-1790072276479-j2l3unqf.png",
             },
             {
