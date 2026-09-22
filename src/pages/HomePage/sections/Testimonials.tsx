@@ -24,7 +24,7 @@ export default function TestimonialsSection(): React.JSX.Element {
               name: "Julie",
               role: "Local Guide",
               quote: "Last minute Mothers day treat, have not been here before but will definitely return.",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3GLscP9beQHn8gWQw9DRufBbp25/uploaded-1785100614290-zzyqa21w.png",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3GLscP9beQHn8gWQw9DRufBbp25/uploaded-1790072276479-j2l3unqf.png",
             },
             {
               name: "Elena V.",
