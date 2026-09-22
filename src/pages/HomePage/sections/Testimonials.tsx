@@ -30,7 +30,7 @@ export default function TestimonialsSection(): React.JSX.Element {
               name: "Thomas G.
 ",
               role: "Diner",
-              quote: "Absolutely amazing experience at Tuto today! ❤️",
+              quote: "Absolutely amazing experience at Tuto today! ❤️100% recommend Tuto! amazing food, amazing service and such a lovely atmosphere. 100% recommend Tuto! amazing food, amazing service and such a lovely atmosphere. ",
               imageSrc: "https://storage.googleapis.com/webild/users/user_3GLscP9beQHn8gWQw9DRufBbp25/uploaded-1790072530033-72wvdher.png",
             },
             {
