@@ -1,71 +1,27 @@
-import React from "react";
-import { routes } from "@/routes";
-import NavbarCentered from "@/components/ui/NavbarCentered";
-import HeroBillboard from "@/components/sections/hero/HeroBillboard";
+import Button from "@/components/ui/Button";
+import HeroBackgroundSlot from "@/components/ui/HeroBackgroundSlot";
+import TextAnimation from "@/components/ui/TextAnimation";
+import ImageOrVideo from "@/components/ui/ImageOrVideo";
+import ScrollReveal from "@/components/ui/ScrollReveal";
+import AvatarGroup from "@/components/ui/AvatarGroup";
 import FeaturesFilterGrid from "@/components/sections/features/FeaturesFilterGrid";
-import ContactCta from "@/components/sections/contact/ContactCta";
-import FooterSimple from "@/components/sections/footer/FooterSimple";
+import { ArrowUpRight, Loader2 } from "lucide-react";
+import GridOrCarousel from "@/components/ui/GridOrCarousel";
+import useProducts from "@/hooks/useProducts";
 
 export default function ProductsPage() {
-  const menuCategories = ["Starters", "Pizza", "Pasta", "Mains", "Sides", "Desserts", "Drinks"];
-
-  const menuItems = [
-    { name: "Artisanal Garlic Bread", category: "Starters", imageSrc: "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=800&q=80" },
-    { name: "Truffle Burrata", category: "Starters", imageSrc: "https://images.unsplash.com/photo-1592417817098-8f3d69293149?auto=format&fit=crop&w=800&q=80" },
-    { name: "Margherita Speciale", category: "Pizza", imageSrc: "https://images.unsplash.com/photo-1604382355076-af4b0eb60143?auto=format&fit=crop&w=800&q=80" },
-    { name: "Spicy Diavola", category: "Pizza", imageSrc: "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=800&q=80" },
-    { name: "Creamy Carbonara", category: "Pasta", imageSrc: "https://images.unsplash.com/photo-1621996346565-e3d5d6281318?auto=format&fit=crop&w=800&q=80" },
-    { name: "Wild Mushroom Tagliatelle", category: "Pasta", imageSrc: "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80" },
-    { name: "Grilled Ribeye Steak", category: "Mains", imageSrc: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80" },
-    { name: "Pan-Seared Salmon", category: "Mains", imageSrc: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=800&q=80" },
-    { name: "Crispy Truffle Fries", category: "Sides", imageSrc: "https://images.unsplash.com/photo-1576107232684-1279f390859f?auto=format&fit=crop&w=800&q=80" },
-    { name: "Classic Tiramisu", category: "Desserts", imageSrc: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=800&q=80" },
-    { name: "Signature Italian Soda", category: "Drinks", imageSrc: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" },
-    { name: "Craft Citrus Lemonade", category: "Drinks", imageSrc: "https://images.unsplash.com/photo-1523371054106-bbf80586c38c?auto=format&fit=crop&w=800&q=80" }
-  ];
-
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <NavbarCentered
-        logo="Gourmet Bistro"
-        navItems={routes.map((r) => ({ name: r.label, href: r.path }))}
-        ctaButton={{ text: "Order Online", href: "#menu" }}
-      />
-      <HeroBillboard
+    <>
+      <div data-webild-section="HeroBillboard"><section aria-label="Hero section" className="relative pt-25 pb-20 md:pt-30"><HeroBackgroundSlot /><div className="flex flex-col gap-12 md:gap-15 w-content-width mx-auto"><div className="flex flex-col items-center gap-3 text-center"><AvatarGroup avatarsSrc={["https://img.freepik.com/free-photo/portrait-happy-young-woman-smiling_23-2148435773.jpg","https://img.freepik.com/free-photo/handsome-bearded-man-smiling_23-2148213400.jpg","https://img.freepik.com/free-photo/young-man-cheerful-expression-portrait_23-2148435780.jpg"]} label="Loved by E17 foodies & regulars" className="mb-1" /><TextAnimation text="Handcrafted Pizzas, Pasta & Italian Classics" variant="slide-up" gradientText={true} tag="h1" className="md:max-w-8/10 text-7xl 2xl:text-8xl leading-[1.15] font-semibold text-center text-balance" /><TextAnimation text="Discover authentic stone-baked pizzas, fresh pasta made daily, classic mains, and curated wines crafted with fine Italian imports in E17." variant="slide-up" gradientText={false} tag="p" className="md:max-w-7/10 text-lg md:text-xl leading-snug text-balance" /><div className="flex flex-wrap justify-center gap-3 mt-2 md:mt-3"><Button text="Browse Categories" href="#categories" variant="primary" /><Button text="Book a Table" href="/booking" variant="secondary" animationDelay={0.1} /></div></div><ScrollReveal variant="fade-blur" delay={0.2} className="w-full p-2 xl:p-3 2xl:p-4 card rounded overflow-hidden"><ImageOrVideo imageSrc="https://img.freepik.com/free-photo/delicious-pizza-indoors-shot_23-2150873870.jpg" className="aspect-4/5 md:aspect-video" /></ScrollReveal></div></section></div>
+      <div data-webild-section="FeaturesFilterGrid"><FeaturesFilterGrid
         tag="Our Menu"
-        title="Handcrafted Culinary Delights"
-        description="Explore our curated selection of fresh starters, wood-fired pizzas, authentic pastas, delicious mains, sides, desserts, and refreshing drinks."
-        primaryButton={{ text: "Browse Categories", href: "#menu" }}
-        secondaryButton={{ text: "Book a Table", href: "/contact" }}
-        imageSrc="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80"
+        title="Authentic Italian Dishes Handcrafted in E17"
+        description="Explore our handcrafted wood-fired pizzas, fresh pasta, antipasti, and curated wines prepared daily with local ingredients and finest Italian imports."
+        categories={["Starters","Pizza","Pasta","Mains","Sides","Desserts","Drinks"]}
+        items={[{"name":"Burrata Pugliese & Tomatoes","category":"Starters","imageSrc":"https://img.freepik.com/free-photo/delicious-fresh-burrata-cheese-salad-with-tomatoes-basil-pesto_1268-21245.jpg"},{"name":"Wood-Fired Margherita Verace","category":"Pizza","imageSrc":"https://img.freepik.com/free-photo/crispy-mixed-pizza-with-olives-sausage_140725-1158.jpg"},{"name":"Tagliatelle al Tartufo Fresh Pasta","category":"Pasta","imageSrc":"https://img.freepik.com/free-photo/top-view-delicious-pasta-plate_23-2148567083.jpg"},{"name":"Slow-Braised Chicken Cacciatore","category":"Mains","imageSrc":"https://img.freepik.com/free-photo/grilled-chicken-breast-fried-potatoes-vegetables-plate_2829-19762.jpg"},{"name":"Rosemary & Parmesan Truffle Fries","category":"Sides","imageSrc":"https://img.freepik.com/free-photo/crispy-french-fries-with-sauce-plate_140725-8321.jpg"},{"name":"Classic Tuto House Tiramisù","category":"Desserts","imageSrc":"https://img.freepik.com/free-photo/delicious-tiramisu-dessert-table_23-2148769223.jpg"},{"name":"Signature Italian Negroni","category":"Drinks","imageSrc":"https://img.freepik.com/free-photo/glass-red-cocktail-ice-orange-slice_140725-8022.jpg"}]}
         textAnimation="slide-up"
-      />
-      <div id="menu">
-        <FeaturesFilterGrid
-          tag="Menu Selection"
-          title="Explore by Category"
-          description="Filter through our signature dishes made fresh to order with authentic seasonal ingredients."
-          categories={menuCategories}
-          items={menuItems}
-          textAnimation="slide-up"
-        />
-      </div>
-      <ContactCta
-        tag="Reserve Today"
-        text="Ready for an exceptional dining experience? Book your table or order online now."
-        primaryButton={{ text: "Order Online", href: "#menu" }}
-        secondaryButton={{ text: "Contact Us", href: "/contact" }}
-        textAnimation="slide-up"
-      />
-      <FooterSimple
-        brand="Gourmet Bistro"
-        columns={[
-          { title: "Categories", items: menuCategories.slice(0, 4).map((c) => ({ label: c, href: "#menu" })) },
-          { title: "More", items: [{ label: "About Us", href: "/about" }, { label: "Reservations", href: "/contact" }] }
-        ]}
-        copyright="© 2025 Gourmet Bistro. All rights reserved."
-        links={[{ label: "Privacy Policy", href: "#" }, { label: "Terms of Service", href: "#" }]}
-      />
-    </div>
+      /></div>
+      <div data-webild-section="ProductMediaCards"><section aria-label="Products section" className="py-20"><div className="w-content-width mx-auto flex justify-center"><Loader2 className="size-8 animate-spin text-foreground" strokeWidth={1.5} /></div></section></div>
+    </>
   );
 }
