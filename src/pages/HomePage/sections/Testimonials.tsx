@@ -40,10 +40,11 @@ export default function TestimonialsSection(): React.JSX.Element {
               imageSrc: "http://img.b2bpic.net/free-photo/enthusiastic-asian-female-entrepreneur-cafe-owner-with-tablet-wearing-shop-uniform-standing-with_1258-197423.jpg",
             },
             {
-              name: "Claire P.",
-              role: "Frequent Diner",
-              quote: "The staff are so friendly and the quality of ingredients really shines through.",
-              imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-dinner_23-2148060594.jpg",
+              name: "Marvin BB",
+              role: "Local Diner
+",
+              quote: " I thoroughly enjoyed every bite and can’t wait to return. Join me and experience this culinary delight for yourself!",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3GLscP9beQHn8gWQw9DRufBbp25/uploaded-1790072767689-nvenle2d.png",
             },
           ]}
           textAnimation="fade"
