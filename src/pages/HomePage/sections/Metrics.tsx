@@ -18,7 +18,7 @@ export default function MetricsSection() {
       label: "Menu Items",
     },
     {
-      value: "4.9",
+      value: "4.8",
       label: "Star Rating",
     }
   ];
