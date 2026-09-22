@@ -35,7 +35,9 @@ export default function Layout() {
   {
     "name": "Testimonials",
     "href": "#testimonials"
-  }
+  },
+  { name: "Menu", href: "/menu" },
+
 ];
 
   return (
