@@ -27,10 +27,11 @@ export default function TestimonialsSection(): React.JSX.Element {
               imageSrc: "https://storage.googleapis.com/webild/users/user_3GLscP9beQHn8gWQw9DRufBbp25/uploaded-1790072276479-j2l3unqf.png",
             },
             {
-              name: "Elena V.",
+              name: "Thomas G.
+",
               role: "Diner",
-              quote: "A truly authentic atmosphere. Felt like I was back in Rome for a few hours.",
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-asian-man-friends-reunion_23-2149244687.jpg",
+              quote: "Absolutely amazing experience at Tuto today! ❤️",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3GLscP9beQHn8gWQw9DRufBbp25/uploaded-1790072530033-72wvdher.png",
             },
             {
               name: "David R.",
