@@ -15,10 +15,10 @@ export default function TestimonialsSection(): React.JSX.Element {
           description="Join our community of happy diners who love the Tuto experience."
           testimonials={[
             {
-              name: "Viorica Feraru",
+              name: "Mother ofboys",
               role: "Foodie",
-              quote: "We ordered a couple of pasta dishes, a big pizza, and a mixed fried platter—and everything was absolutely delicious.",
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-beautiful-black-skinned-woman-wearing-blouse-flower-headband-enjoying-dinner-while-eating-restaurant_613910-5658.jpg",
+              quote: "My best friend and I visited this beautiful Italian restaurant whilst on a business trip to London, and honestly it was one of the highlights of our trip.",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3GLscP9beQHn8gWQw9DRufBbp25/uploaded-1790072683524-leelj267.png",
             },
             {
               name: "Julie",
