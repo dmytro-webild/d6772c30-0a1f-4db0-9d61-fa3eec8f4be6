@@ -44,7 +44,7 @@ export default function TestimonialsSection(): React.JSX.Element {
               role: "Local Diner
 ",
               quote: " I thoroughly enjoyed every bite and can’t wait to return. Join me and experience this culinary delight for yourself!",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3GLscP9beQHn8gWQw9DRufBbp25/uploaded-1790072767689-nvenle2d.png",
+              imageSrc: "https://images.pexels.com/photos/15521783/pexels-photo-15521783.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=15521783",
             },
           ]}
           textAnimation="fade"
