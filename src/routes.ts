@@ -6,5 +6,4 @@ export interface Route {
 
 export const routes: Route[] = [
   { path: '/', label: 'Home', pageFile: 'HomePage' },
-  { path: '/products', label: 'Products', pageFile: 'ProductsPage' },
 ];
